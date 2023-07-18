@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1375px) {
+      .main {
+            padding: 50px;
+      }
+
+      .row {
+            padding: 10px 25px;
+      }
+
+      .row__col-left {
+            width: 65%;
+
+            .site-name {
+                  font-size: 56px;
+            }
+      }
+}
+
+@media only screen and (max-width: 1065px) {
+      .row__col-left {
+            width: 75%;
+      }
+
+      .row__col-right {
+            position: absolute;
+            right: 50px;
+      }
+}
+
+@media only screen and (max-width: 902px) {
+      .row {
+            padding: 0;
+      }
+}
+
+@media only screen and (max-width: 854px) {
+      .row__col-left {
+            .site-name {
+                  font-size: 56px;
+                  position: absolute;
+            }
+
+            .country {
+                  margin-top: 150px;
+            }
+
+      }
+
+      .row__col-right {
+            top: 120px;
+            left: 50px;
+      }
+
+      .form {
+            width: 400px;
+
+            .inp-box {
+                  border-radius: 8px;
+            }
+      }
+}
+
+@media only screen and (max-width: 678px) {
+      .main {
+            padding: 30px;
+      }
+
+      .row__col-right {
+            top: 100px;
+            left: 30px;
+      }
+}
+
+@media only screen and (max-width: 600px) {
+      .row__col-left {
+            width: 100%;
+
+            .site-name {
+                  font-size: 48px;
+            }
+
+            .country {
+                  margin-top: 120px;
+            }
+      }
+
+      .row__col-right {
+            top: 80px;
+      }
+}
+
+@media only screen and (max-width: 525px) {
+      .main {
+            padding: 25px 20px 10px;
+      }
+
+      .row__col-left {
+            .site-name {
+                  font-weight: 600;
+                  font-size: 38px;
+            }
+
+            .country {
+                  font-size: 32px;
+                  margin: 100px 0 5px 0;
+            }
+
+            .date {
+                  font-size: 20px;
+            }
+
+            .temperature {
+                  margin: 10px 0;
+                  font-size: 48px;
+
+                  span {
+                        font-size: 68px !important;
+                  }
+            }
+
+            .description {
+                  letter-spacing: 1.5px;
+            }
+      }
+
+      .row__col-right {
+            left: 20px;
+            top: 58px;
+
+            .form {
+                  width: 350px;
+            }
+      }
+}
+
+@media only screen and (max-width: 405px) {
+      .main {
+            padding: 25px 10px;
+      }
+
+      .row__col-left {
+            .site-name {
+                  font-size: 36px;
+            }
+      }
+
+      .row__col-right {
+            left: 10px;
+
+            .form {
+                  width: 320px;
+            }
+      }
+}
+
+@media only screen and (max-width: 375px) {
+      .main {
+            padding: 15px 5px;
+      }
+
+      .row__col-left {
+            .site-name {
+                  font-size: 34px;
+            }
+
+            .country {
+                  margin: 90px 0 5px 0;
+            }
+      }
+
+      .row__col-right {
+            left: 5px;
+            top: 45px;
+
+            .form {
+                  width: 290px;
+            }
+      }
+}

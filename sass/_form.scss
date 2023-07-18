@@ -1,0 +1,33 @@
+.row__col-right{
+      width: 40%;
+}
+.form{
+      width: 100%;
+      display: flex;
+      .inp-box{
+            height: 35px;
+            width: 100%;
+            border: 1px solid var(--white);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 8px 0px 0px 8px ;
+            padding: 2px 10px;
+            color: var(--white);
+            font-size: 16px;
+      }
+      .submit-btn{
+            height: 35px;
+            border: none;
+            width: 45px;
+            background: rgba(0, 0, 0, 0);
+            margin-left: -45px;
+            color: var(--white);
+            cursor: pointer;
+            font-size: 16px;
+      }
+}
+
+@media only screen and (max-width: 1335px) {
+      .form{
+            margin-top: 25px;
+      }
+}
